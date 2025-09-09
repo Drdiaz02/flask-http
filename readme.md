@@ -26,3 +26,9 @@ Clone this repository in order to access the starter code for a simple `flask` a
 7. Modify the root page to include the image `sunset.jpg`
 8. Add a route to server `mars.png`
 9. Update the application to use this as the favicon for all pages.
+
+Image Credits
+-------------
+
+- https://en.wikipedia.org/wiki/Sunset#/media/File:MarsSunset.jpg
+- https://en.wikipedia.org/wiki/File:Mars_-_August_30_2021_-_Flickr_-_Kevin_M._Gill.png
