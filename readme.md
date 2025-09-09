@@ -20,3 +20,5 @@ Clone this repository in order to access the starter code for a simple `flask` a
 3. Add an `<li>` to the template body that acts as navigation between all pages.
 4. Create an `add` route that requires to `int` value within it's path that will be added. For example, a request to `/add/2/3` should return a page with the content `2 + 3 = 5`.
 5. Create a `reverse` route displays the reverse of the `q` `GET` parameter. For example, a request to `/reverse?q=abcd` should return a page with the content `abcd reversed in dcba`.
+6. Create a route called `sunset.jpg` that returns `sunset.jpg`. Should should use the `send_file` function provided by Flask.
+7. Modify the root page to include the image `sunset.jpg`
