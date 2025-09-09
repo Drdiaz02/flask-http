@@ -1,6 +1,8 @@
 HTTP with Flask
 ===============
 
+![HTTP Logo](https://upload.wikimedia.org/wikipedia/commons/thumb/5/5b/HTTP_logo.svg/330px-HTTP_logo.svg.png)
+
 Learning Objectives
 -------------------
 
