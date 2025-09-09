@@ -24,3 +24,5 @@ Clone this repository in order to access the starter code for a simple `flask` a
 5. Create a `reverse` route displays the reverse of the `q` `GET` parameter. For example, a request to `/reverse?q=abcd` should return a page with the content `abcd reversed in dcba`.
 6. Create a route called `sunset.jpg` that returns `sunset.jpg`. Should should use the `send_file` function provided by Flask.
 7. Modify the root page to include the image `sunset.jpg`
+8. Add a route to server `grass.png`
+9. Update the application to use this as the favicon for all pages.
