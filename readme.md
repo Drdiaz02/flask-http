@@ -21,7 +21,7 @@ Clone this repository in order to access the starter code for a simple `flask` a
 2. Modify the `template` to include an appropriate title.
 3. Create an `add` route that requires to `int` value within it's path that will be added. For example, a request to `/add/2/3` should return a page with the content `2 + 3 = 5`.
 4. Create a `reverse` route displays the reverse of the `q` `GET` parameter. For example, a request to `/reverse?q=abcd` should return a page with the content `abcd reversed in dcba`.
-5. Create a route called `sunset.jpg` that returns `sunset.jpg`. Should should use the `send_file` function provided by Flask.
+5. Create a route called `sunset.jpg` that returns `sunset.jpg`. You should should use the `send_file` function provided by Flask.
 6. Modify the root page to include the image `sunset.jpg`
 7. Add a route to server `mars.png`
 8. Update the application to use this as the favicon for all pages.
