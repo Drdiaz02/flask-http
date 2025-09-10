@@ -26,6 +26,17 @@ Clone this repository in order to access the starter code for a simple `flask` a
 7. Add a route to server `mars.png`
 8. Update the application to use this as the favicon for all pages.
 
+Usage
+-----
+
+In order to run the handout code, you will need Python 3 and Flask installed. Flask includes [detailed installation instructions](https://flask.palletsprojects.com/en/stable/installation/), but it is available on PyPI and should be installable via pip like most other packages.
+
+Once flask is installed, you should be able to run the handout code as:
+
+```sh
+python app.py
+```
+
 Image Credits
 -------------
 
