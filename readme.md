@@ -20,7 +20,7 @@ Clone this repository in order to access the starter code for a simple `flask` a
 1. Modify the root route to show different content using the provided HTML `template`. Simply replace `{content}` within the template to include the HTML for your page.
 2. Modify the `template` to include an appropriate title.
 3. Create an `add` route that requires two `int` value within its path that will be added. For example, a request to `/add/2/3` should return a page with the content `2 + 3 = 5` inside the HTML `template`.
-4. Create a `reverse` route displays the reverse of the `q` `GET` parameter. For example, a request to `/reverse?q=abcd` should return a page with the content `abcd reversed in dcba` inside the HTML `template`.
+4. Create a `reverse` route displays the reverse of the `q` `GET` parameter. For example, a request to `/reverse?q=abcd` should return a page with the content `abcd reversed is dcba` inside the HTML `template`.
 5. Create a route called `sunset.jpg` that returns `sunset.jpg`. You should should use the `send_file` function provided by Flask.
 6. Modify the root page to include the image `sunset.jpg`
 7. Add a route to server `mars.png`
