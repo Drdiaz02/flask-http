@@ -20,5 +20,10 @@ template = """
 def hello_world():
     return template.replace("{content}", '<h1>Beginning</h1><p>This is where I can add content!</p>')
 
+@app.route('/add/<int:a>/<int:b>')
+def add(a, b):
+    sum = a + b
+    return (f"{a} + {b} = {sum}")
+
 if __name__ == '__main__':
     app.run(debug=True)
