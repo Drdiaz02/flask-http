@@ -7,6 +7,7 @@ template = """
 <html lang="en">
   <head>
     <meta charset="utf-8">
+    <title>Flask Lab!</title>
   </head>
 
   <body>
@@ -17,7 +18,7 @@ template = """
 
 @app.route('/')
 def hello_world():
-    return template.replace("{content}", 'Hello, World!')
+    return template.replace("{content}", '<h1>Beginning</h1><p>This is where I can add content!</p>')
 
 if __name__ == '__main__':
     app.run(debug=True)
