@@ -8,6 +8,7 @@ template = """
   <head>
     <meta charset="utf-8">
     <title>Flask Lab!</title>
+    <link rel="icon" href="/mars" type="image/png">
   </head>
 
   <body>
@@ -26,7 +27,7 @@ def hello_world():
 @app.route('/add/<int:a>/<int:b>')
 def add(a, b):
     sum = a + b
-    return (f"{a} + {b} = {sum}")
+    return template.replace("{content}",f"{a} + {b} = {sum}")
 
 @app.route('/reverse')
 def reverse():
@@ -37,6 +38,10 @@ def reverse():
 @app.route('/sunset.jpg')
 def sunset():
   return send_file("sunset.jpg")
+
+@app.route('/mars.png')
+def mars():
+    return send_file("mars.png")
 
 if __name__ == '__main__':
     app.run(debug=True)
