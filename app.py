@@ -18,12 +18,25 @@ template = """
 
 @app.route('/')
 def hello_world():
-    return template.replace("{content}", '<h1>Beginning</h1><p>This is where I can add content!</p>')
+    return template.replace("{content}", """
+                          <h1>Beginning</h1> 
+                          <p>This is where I can add content!</p> 
+                          <img src= '/sunset.jpg' alt = 'Sunset' > """)
 
 @app.route('/add/<int:a>/<int:b>')
 def add(a, b):
     sum = a + b
     return (f"{a} + {b} = {sum}")
+
+@app.route('/reverse')
+def reverse():
+    q = request.args.get("q", "")
+    rev_string = q[::-1]
+    return template.replace("{content}", f"<p>{q} reversed is {rev_string}</p>")
+
+@app.route('/sunset.jpg')
+def sunset():
+  return send_file("sunset.jpg")
 
 if __name__ == '__main__':
     app.run(debug=True)
