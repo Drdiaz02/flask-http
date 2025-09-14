@@ -8,7 +8,7 @@ template = """
   <head>
     <meta charset="utf-8">
     <title>Flask Lab!</title>
-    <link rel="icon" href="/mars" type="image/png">
+    <link rel="icon" href="/mars.png" type="image/png">
   </head>
 
   <body>
